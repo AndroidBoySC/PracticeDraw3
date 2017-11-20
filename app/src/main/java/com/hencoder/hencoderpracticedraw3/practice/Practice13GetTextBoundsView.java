@@ -42,7 +42,7 @@ public class Practice13GetTextBoundsView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-
+        
         canvas.drawRect(50, top, getWidth() - 50, bottom, paint1);
 
         // 使用 Paint.getTextBounds() 计算出文字的显示区域
